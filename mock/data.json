@@ -1,0 +1,306 @@
+{
+  "contas-receber": [
+    {
+      "id": "1",
+      "title": "conta 1",
+      "company": "Empresa X",
+      "date": "12/03/2024",
+      "value": "R$ 500,00",
+      "status": "Pago"
+    },
+    {
+      "id": "2",
+      "title": "conta 2",
+      "company": "Empresa Z",
+      "date": "12/05/2024",
+      "value": "R$ 3.500,00",
+      "status": "Pagar"
+    }
+  ],
+  "contas-pagar": [
+    {
+      "id": "1",
+      "title": "conta 1",
+      "company": "Empresa X",
+      "date": "12/05/2024",
+      "value": "R$ 1.500,00"
+    },
+    {
+      "id": "2",
+      "title": "conta 2",
+      "company": "Empresa X",
+      "date": "12/06/2024",
+      "value": "R$ 1.500,00"
+    },
+    {
+      "id": "3",
+      "title": "conta 3",
+      "company": "Empresa X",
+      "date": "12/07/2024",
+      "value": "R$ 1.500,00"
+    },
+    {
+      "id": "4",
+      "title": "conta 4",
+      "company": "Empresa X",
+      "date": "12/08/2024",
+      "value": "R$ 1.500,00"
+    },
+    {
+      "id": "5",
+      "title": "conta 5",
+      "company": "Empresa X",
+      "date": "12/09/2024",
+      "value": "R$ 1.500,00"
+    },
+    {
+      "id": "5c14",
+      "title": "k",
+      "company": "3",
+      "date": "26/03/2001",
+      "value": "R$ 3,00"
+    },
+    {
+      "id": "793e",
+      "title": "k",
+      "company": "3",
+      "date": "26/03/2001",
+      "value": "R$ 3.000.000,00"
+    },
+    {
+      "id": "02af",
+      "title": "3",
+      "company": "333",
+      "date": "20/03/2001",
+      "value": "R$ 3.333,00"
+    },
+    {
+      "id": "c107",
+      "title": "33",
+      "company": "33",
+      "date": "29/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "d486",
+      "title": "rancho",
+      "company": "brad",
+      "date": "16/05/2024",
+      "value": "R$ 200,00"
+    },
+    {
+      "id": "77fd",
+      "title": "dd",
+      "company": "33",
+      "date": "24/05/2024",
+      "value": "R$ 22,00"
+    },
+    {
+      "id": "80da",
+      "title": "11",
+      "company": "11",
+      "date": "24/05/2024",
+      "value": "R$ 11,00"
+    },
+    {
+      "id": "ff33",
+      "title": "44",
+      "company": "44",
+      "date": "21/05/2024",
+      "value": "R$ 55,00"
+    },
+    {
+      "id": "4c0b",
+      "title": "aluguel",
+      "company": "caixa",
+      "date": "15/05/2024",
+      "value": "R$ 2.500,00"
+    },
+    {
+      "id": "ad86",
+      "title": "4343",
+      "company": "4334",
+      "date": "29/05/2024",
+      "value": "R$ 4.343,00"
+    },
+    {
+      "id": "b0bb",
+      "title": "teste",
+      "company": "21",
+      "date": "15/05/2024",
+      "value": "R$ 21,00"
+    },
+    {
+      "id": "738a",
+      "title": "33",
+      "company": "33",
+      "date": "16/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "2e4a",
+      "title": "33",
+      "company": "33",
+      "date": "22/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "8c8e",
+      "title": "33",
+      "company": "33",
+      "date": "01/01/2033",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "ee2b",
+      "title": "44",
+      "company": "44",
+      "date": "14/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "6f75",
+      "title": "44",
+      "company": "44",
+      "date": "22/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "54de",
+      "title": "44",
+      "company": "44",
+      "date": "22/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "68e0",
+      "title": "44",
+      "company": "44",
+      "date": "22/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "01f2",
+      "title": "44",
+      "company": "44",
+      "date": "22/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "70db",
+      "title": "33",
+      "company": "33",
+      "date": "21/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "89e7",
+      "title": "44",
+      "company": "44",
+      "date": "01/01/2044",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "deeb",
+      "title": "sddsa",
+      "company": "112",
+      "date": "21/05/2024",
+      "value": "R$ 2.323,00"
+    },
+    {
+      "id": "eb56",
+      "title": "weew",
+      "company": "22",
+      "date": "22/05/2024",
+      "value": "R$ 222,00"
+    },
+    {
+      "id": "6373",
+      "title": "44",
+      "company": "44",
+      "date": "29/05/2024",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "b01d",
+      "title": "44",
+      "company": "44",
+      "date": "17/04/2001",
+      "value": "R$ 44,00"
+    },
+    {
+      "id": "04a7",
+      "title": "44",
+      "company": "44",
+      "date": "16/05/2024",
+      "value": "R$ 4,00"
+    },
+    {
+      "id": "0965",
+      "title": "33",
+      "company": "33",
+      "date": "21/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "b484",
+      "title": "dsds",
+      "company": "333",
+      "date": "14/05/2024",
+      "value": "R$ 333,00"
+    },
+    {
+      "id": "332c",
+      "title": "salkksa",
+      "company": "1",
+      "date": "08/05/2024",
+      "value": "R$ 11,00"
+    },
+    {
+      "id": "10",
+      "title": "ww",
+      "company": "ww",
+      "date": "07/05/2024",
+      "value": "R$ 1,00"
+    },
+    {
+      "id": "36",
+      "title": "1",
+      "company": "22",
+      "date": "16/05/2024",
+      "value": "R$ 1,00"
+    },
+    {
+      "id": "37",
+      "title": "dd",
+      "company": "2",
+      "date": "20/05/2024",
+      "value": "R$ 2,00"
+    },
+    {
+      "id": "38",
+      "title": "gg",
+      "company": "4",
+      "date": "14/05/2024",
+      "value": "R$ 4,00"
+    },
+    {
+      "id": "39",
+      "title": "dd",
+      "company": "dd",
+      "date": "02/05/2024",
+      "value": "-R$ 2,00"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": "1",
+      "name": "João",
+      "document": "12332145676",
+      "birthdate": "02/05/1997",
+      "email": "joao@email.com",
+      "phone": "11 3232-3232",
+      "cellNumber": "11 9 9999-9999"
+    }
+  ]
+}
