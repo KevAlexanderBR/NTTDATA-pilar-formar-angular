@@ -1,0 +1,20 @@
+.width-max {
+  width: 100%;
+}
+
+.content {
+  margin: 48px;
+}
+
+.button {
+  border-radius: 23px;
+}
+
+.erro {
+  color: #f44336;
+}
+
+mat-form-field span {
+  margin-left: 20px;
+  line-height: normal;
+}

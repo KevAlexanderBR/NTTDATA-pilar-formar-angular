@@ -1,0 +1,62 @@
+<form [formGroup]="accountForm" (ngSubmit)="submitForm()">
+    <div class="row content">
+      <div class="col-4">
+        <mat-form-field class="width-max">
+          <mat-label>Descrição</mat-label>
+          <input
+            matInput
+            type="text"
+            formControlName="description"
+            class="width-max"
+          />
+        </mat-form-field>
+        <div *ngIf="accountForm.controls['description']?.errors?.['required'] && accountForm.controls['description']?.touched">
+            <span class="erro">O campo Descrição é obrigatório!</span>
+        </div>
+      </div>
+      <div class="col-2">
+        <mat-form-field class="width-max">
+          <mat-label>Valor</mat-label>
+          <span matPrefix>R$ </span>
+          <input matInput type="number" formControlName="value"/>        
+        </mat-form-field>
+        <div *ngIf="accountForm.controls['value']?.errors?.['required'] && accountForm.controls['value']?.touched">
+            <span class="erro">O campo Valor é obrigatório!</span>
+        </div>
+      </div>
+      <div class="col-3">
+        <mat-form-field class="width-max">
+          <mat-label>Pagador</mat-label>
+          <input matInput type="text" formControlName="enterprise" />
+        </mat-form-field>
+        <div *ngIf="accountForm.controls['enterprise']?.errors?.['required'] && accountForm.controls['enterprise']?.touched">
+            <span class="erro">O campo Pagador é obrigatório!</span>
+        </div>
+      </div>
+      <div class="col-3">
+        <mat-form-field class="width-max">
+          <mat-label>Data de vencimento</mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="dueDate" />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <div *ngIf="accountForm.controls['dueDate']?.errors?.['required'] && accountForm.controls['dueDate']?.touched">
+            <span class="erro">O campo Data de vencimento é obrigatório!</span>
+          </div>
+      </div>
+    </div>
+    <div class="row p-4 justify-content-center width-max">
+      <button
+        mat-flat-button
+        color="primary"
+        class="button"
+        type="submit"
+        [disabled]="accountForm.invalid"
+      >
+        Cadastrar
+      </button>
+    </div>
+  </form>

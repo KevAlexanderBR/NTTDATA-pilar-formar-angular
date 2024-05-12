@@ -23,47 +23,55 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorIntl, MatPaginatorModule } from '@angular/material/paginator';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
+import { AccountsPayableFormComponent } from "./pages/accounts-payable/accounts-payable-form/accounts-payable-form.component";
+import { AccountsPayableTableComponent } from './pages/accounts-payable/accounts-payable-table/accounts-payable-table.component';
+import { AccountsPayablePaginatorComponent } from './pages/accounts-payable/accounts-payable-paginator/accounts-payable-paginator.component';
+import { AccountsPayableOrdinationComponent } from './pages/accounts-payable/accounts-payable-ordination/accounts-payable-ordination.component';
 
 
 registerLocaleData(localePt);
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DashboardComponent,
-    AccountsPayableComponent,
-    AccountsReceivableComponent,
-    PeopleComponent,
-    ReportsComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    AppRoutingModule,
-    BaseChartDirective,
-    SharedModule,
-    MatFormFieldModule, 
-    MatInputModule, 
-    FormsModule, 
-    MatButtonModule, 
-    MatIconModule,
-    MatDatepickerModule,
-    MatTabsModule,
-    ReactiveFormsModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSelectModule
-  ],
-  providers: [
-    BusinessService,
-    provideCharts(withDefaultRegisterables()),
-    provideAnimationsAsync()
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        DashboardComponent,
+        AccountsPayableComponent,
+        AccountsReceivableComponent,
+        PeopleComponent,
+        ReportsComponent,
+        AccountsPayableFormComponent,
+        AccountsPayableTableComponent,
+        AccountsPayablePaginatorComponent,
+        AccountsPayableOrdinationComponent
+    ],
+    providers: [
+        BusinessService,
+        provideCharts(withDefaultRegisterables()),
+        provideAnimationsAsync()
+    ],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        AppRoutingModule,
+        BaseChartDirective,
+        SharedModule,
+        MatFormFieldModule,
+        MatInputModule,
+        FormsModule,
+        MatButtonModule,
+        MatIconModule,
+        MatDatepickerModule,
+        MatTabsModule,
+        ReactiveFormsModule,
+        MatTableModule,
+        MatPaginatorModule,
+        MatSelectModule
+    ]
 })
 export class AppModule {
 }

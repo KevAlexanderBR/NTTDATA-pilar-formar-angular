@@ -1,13 +1,15 @@
 import { AccountPayable } from './../../interfaces/account-payable';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, Subject, map } from 'rxjs';
+import { BehaviorSubject, Observable, Subject, map } from 'rxjs';
 import { AccountPayablePageable } from '../../interfaces/account-payable-pageable';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BusinessService {
+  
+  private listAccountsSubject = new BehaviorSubject<AccountPayable[]>([]);
 
   private urlApi = 'http://localhost:3000/';
 
@@ -19,11 +21,11 @@ export class BusinessService {
   }
 
   //  CHAMADA PARA PEGAR AS CONTAS A PAGAR PAGINADAS
-  getAccountsPayablePageable(pageIndex: number, orderedField: string, pageSize: number): Observable<AccountPayablePageable>  {
+  getAccountsPayablePageable(pageIndex?: number, orderedField?: string, pageSize?: number): Observable<AccountPayablePageable>  {
     const params = new HttpParams()
-      .set('_page', pageIndex)
-      .set('_per_page', pageSize)
-      .set('_sort', orderedField);
+      .set('_page', pageIndex || 1)
+      .set('_per_page', pageSize || 10)
+      .set('_sort', orderedField || 'id');
     return this.httpClient.get<AccountPayablePageable>(this.urlApi + 'contas-pagar', { params });
   }
 
@@ -40,5 +42,13 @@ export class BusinessService {
   //  CHAMADA PARA PEGAR AS PESSOAS
   getPeople() {
     return this.httpClient.get(this.urlApi + 'pessoas');
+  }
+
+  updateAccountsPayableSubject(accountPayable: AccountPayable): void {
+    this.listAccountsSubject.next([...this.listAccountsSubject.value, accountPayable]);
+  }
+
+  getListAccountsSubject(): BehaviorSubject<AccountPayable[]> {
+    return this.listAccountsSubject;
   }
 }

@@ -15,9 +15,9 @@ const routes: Routes = [
     children: [
       {path: 'dashboard', component: DashboardComponent},
       {path: 'accounts-payable', component: AccountsPayableComponent},
-      //{path: 'accounts-receivable', component: AccountsReceivableComponent},
-      //{path: 'people', component: PeopleComponent},
-      //{path: 'report', component: ReportsComponent},
+      {path: 'accounts-receivable', component: AccountsReceivableComponent},
+      {path: 'people', component: PeopleComponent},
+      {path: 'report', component: ReportsComponent},
     ]
   },
   {path: '**', redirectTo: 'business'},

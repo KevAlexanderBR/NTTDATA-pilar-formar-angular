@@ -1,0 +1,6 @@
+<mat-form-field class="width-max">
+  <mat-label>Ordem</mat-label>
+  <mat-select [(value)]="orderedField" (selectionChange)="onSelectChange($event.source.value)">
+    <mat-option *ngFor="let field of orderedFields" [value]="field.value">{{ field.viewValue }}</mat-option>
+  </mat-select>
+</mat-form-field>

@@ -290,6 +290,160 @@
       "company": "dd",
       "date": "02/05/2024",
       "value": "-R$ 2,00"
+    },
+    {
+      "id": "40",
+      "title": "Blabla",
+      "company": "X",
+      "date": "01/05/2024",
+      "value": "R$ 25,00"
+    },
+    {
+      "id": "20a8",
+      "title": "teste",
+      "company": "teste",
+      "date": "13/05/2024",
+      "value": "R$ 22,00"
+    },
+    {
+      "id": "b256",
+      "title": "teste",
+      "company": "e",
+      "date": "06/05/2024",
+      "value": "R$ 1,00"
+    },
+    {
+      "id": "40ac",
+      "title": "teste",
+      "company": "teste",
+      "date": "06/05/2024",
+      "value": "R$ 11,00"
+    },
+    {
+      "id": "18cd",
+      "title": "descrição",
+      "company": "Empresa",
+      "date": "07/05/2024",
+      "value": "R$ 1,00"
+    },
+    {
+      "id": "51f8",
+      "title": "oi",
+      "company": "e",
+      "date": "14/05/2024",
+      "value": "R$ 21,00"
+    },
+    {
+      "id": "f34f",
+      "title": "ww",
+      "company": "222",
+      "date": "14/05/2024",
+      "value": "R$ 11,00"
+    },
+    {
+      "id": "de0d",
+      "title": "0",
+      "company": "0",
+      "date": "14/05/2024",
+      "value": "R$ 0,00"
+    },
+    {
+      "id": "bef9",
+      "title": "oi",
+      "company": "oi",
+      "date": "28/05/2024",
+      "value": "R$ 9,00"
+    },
+    {
+      "id": "0404",
+      "title": "ashghsajhjas",
+      "company": "55",
+      "date": "14/05/2024",
+      "value": "R$ 34,00"
+    },
+    {
+      "id": "cd46",
+      "title": "2",
+      "company": "2",
+      "date": "07/05/2024",
+      "value": "R$ 2,00"
+    },
+    {
+      "id": "8dff",
+      "title": "2",
+      "company": "2",
+      "date": "28/05/2024",
+      "value": "R$ 2,00"
+    },
+    {
+      "id": "5072",
+      "title": "1",
+      "company": "1",
+      "date": "07/05/2024",
+      "value": "R$ 1,00"
+    },
+    {
+      "id": "7172",
+      "title": "3442",
+      "company": "4342",
+      "date": "29/05/2024",
+      "value": "R$ 3.242,00"
+    },
+    {
+      "id": "8f9c",
+      "title": "34",
+      "company": "23",
+      "date": "28/05/2024",
+      "value": "R$ 432,00"
+    },
+    {
+      "id": "7155",
+      "title": "3231",
+      "company": "3231",
+      "date": "15/05/2024",
+      "value": "R$ 3.131,00"
+    },
+    {
+      "id": "7896",
+      "title": "2332",
+      "company": "2323",
+      "date": "29/05/2024",
+      "value": "R$ 2.323,00"
+    },
+    {
+      "id": "32a1",
+      "title": "11",
+      "company": "11",
+      "date": "23/05/2024",
+      "value": "R$ 11,00"
+    },
+    {
+      "id": "70c4",
+      "title": "33",
+      "company": "33",
+      "date": "22/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "59",
+      "title": "ree",
+      "company": "32",
+      "date": "29/05/2024",
+      "value": "R$ 23,00"
+    },
+    {
+      "id": "1",
+      "title": "33",
+      "company": "33",
+      "date": "23/05/2024",
+      "value": "R$ 33,00"
+    },
+    {
+      "id": "1",
+      "title": "33",
+      "company": "33",
+      "date": "19/01/2033",
+      "value": "R$ 33,00"
     }
   ],
   "pessoas": [
